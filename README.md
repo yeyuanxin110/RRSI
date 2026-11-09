@@ -24,7 +24,7 @@ Download the optical–SAR checkpoint and place it at `weights/rrsi.pt`.
 
 | Modality | Filename | Google Drive | Baidu Netdisk |
 | --- | --- | --- | --- |
-| Optical–SAR | `rrsi.pt` | | |
+| Optical–SAR | `rrsi.pt` | |[[Baidu Netdisk]](https://pan.baidu.com/s/1-RJtKPIxitpkqpoK9LX8xA?pwd=if44)|
 
 ## Installation
 
