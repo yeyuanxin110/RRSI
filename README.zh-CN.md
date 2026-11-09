@@ -24,7 +24,7 @@ RRSI 是面向辐射差异、旋转与尺度变化的多模态图像匹配特征
 
 | 模态 | 文件名 | 谷歌云盘 | 百度网盘 |
 | --- | --- | --- | --- |
-| 光学–SAR | `rrsi.pt` | |[[百度网盘链接]](https://pan.baidu.com/s/1-RJtKPIxitpkqpoK9LX8xA?pwd=if44)|
+| 光学–SAR | `rrsi.pt` |[[谷歌云盘链接]](https://drive.google.com/file/d/1rtvVAcAjwWbNmRaiVQS5VD6OK42m_fLS/view?usp=sharing)|[[百度网盘链接]](https://pan.baidu.com/s/1-RJtKPIxitpkqpoK9LX8xA?pwd=if44)|
 
 ## 环境安装
 
