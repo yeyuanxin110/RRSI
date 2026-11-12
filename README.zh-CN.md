@@ -81,6 +81,16 @@ python infer.py --image-a "path/to/image_a.png" --image-b "path/to/image_b.png" 
 
 </details>
 
+### 抗尺度推理
+
+两张图像尺度差异较大时，可使用多尺度推理入口。使用同一份 `weights/rrsi.pt` 权重，输出匹配连线可视化结果。
+
+```bash
+python infer_scale_invariance.py --image-a image_a.png --image-b image_b.png --output matches_scale.png --show
+```
+
+默认每个检测金字塔层最多2,000个关键点，采样批量为64。可通过 `--max-keypoints` 和 `--batch-size` 调整。
+
 ## 引用
 
 如果本项目对您的研究有所帮助，请引用以下论文。

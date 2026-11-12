@@ -81,6 +81,16 @@ python infer.py --image-a "path/to/image_a.png" --image-b "path/to/image_b.png" 
 
 </details>
 
+### Scale-invariant inference
+
+For image pairs with large scale differences, use the multi-scale inference entry. It uses the same `weights/rrsi.pt` checkpoint and saves a matching visualization.
+
+```bash
+python infer_scale_invariance.py --image-a image_a.png --image-b image_b.png --output matches_scale.png --show
+```
+
+The defaults are 2,000 keypoints per detected pyramid level and a sampling batch size of 64. Adjust them with `--max-keypoints` and `--batch-size`.
+
 ## Citation
 
 If this work is useful for your research, please cite the paper.
